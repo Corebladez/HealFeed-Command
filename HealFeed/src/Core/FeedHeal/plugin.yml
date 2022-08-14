@@ -1,0 +1,8 @@
+  name: HealFeed
+  main: Core.FeedHeal.Main
+  version: 1.0
+  commands:
+    Heal:
+      aliases: h
+    Feed:
+      aliases: f
