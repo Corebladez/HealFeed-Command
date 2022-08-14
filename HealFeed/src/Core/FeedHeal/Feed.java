@@ -13,7 +13,7 @@ public class Feed implements CommandExecutor {
 
         Player player = (Player) commandSender;
 
-        player.sendMessage(ChatColor.GREEN + "Your health has been restored to full!");
+        player.sendMessage(ChatColor.GREEN + "Your healthbar has been restored to full!");
         player.setFoodLevel(20);
         return true;
     }
